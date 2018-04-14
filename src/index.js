@@ -1,11 +1,15 @@
 'use strict';
 
-module.exports = (input, opts) => {
-  if (typeof input !== 'string') {
-    throw new TypeError(`Expected a string, got ${typeof input}`);
+const is = require('@sindresorhus/is');
+
+const runFn = (fn, ...args) => {
+  if (is.undefined(fn) || is.null(fn)) {
+    return undefined;
+  } else if (is.function(fn)) {
+    return fn(...args);
+  } else {
+    throw new TypeError(`Expected a Function, got ${is(fn)}`);
   }
-
-  opts = opts || {};
-
-  return input + ' & ' + (opts.postfix || 'rainbows');
 };
+
+module.exports = runFn;
