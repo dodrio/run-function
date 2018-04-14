@@ -1,31 +1,31 @@
-# run-func
+# run-function
 
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
-[![Dependency Status](https://img.shields.io/david/m31271n/run-func.svg)](#)
-[![DevDependency Status](https://img.shields.io/david/m31271n/run-func.svg)](#)
-[![Travis Build Status](https://img.shields.io/travis/m31271n/run-func.svg)](#)
-[![NPM Downloads](https://img.shields.io/npm/dm/run-func.svg)](#)
+[![Dependency Status](https://img.shields.io/david/m31271n/run-function.svg)](#)
+[![DevDependency Status](https://img.shields.io/david/m31271n/run-function.svg)](#)
+[![Travis Build Status](https://img.shields.io/travis/m31271n/run-function.svg)](#)
+[![NPM Downloads](https://img.shields.io/npm/dm/run-function.svg)](#)
 
-> Just run a function if it exists.
+> Run a function if it exists.
 
 ## Install
 
 ```
-$ npm install run-func
+$ npm install run-function
 ```
 
 ## Usage
 
 ```js
-const runFunc = require('run-func');
+const runFunction = require('run-function');
 
-runFunc('unicorns');
+runFunction('unicorns');
 //=> 'unicorns & rainbows'
 ```
 
 ## API
 
-### runFunc(input, [options])
+### runFunction(input, [options])
 
 #### input
 
