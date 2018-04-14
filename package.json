@@ -1,9 +1,9 @@
 {
-  "name": "run-func",
+  "name": "run-function",
   "version": "0.0.0",
-  "description": "Just run a function if it exists.",
+  "description": "Run a function if it exists.",
   "license": "MIT",
-  "repository": "m31271n/run-func",
+  "repository": "m31271n/run-function",
   "author": {
     "name": "m31271n",
     "email": "m31271n@gmail.com",
