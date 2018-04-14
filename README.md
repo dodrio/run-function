@@ -17,27 +17,19 @@ $ npm install run-function
 ## Usage
 
 ```js
-const runFunction = require('run-function');
+const runFn = require('run-function');
 
-runFunction('unicorns');
-//=> 'unicorns & rainbows'
+function fn() {
+  // do something
+}
+
+runFn(fn);
 ```
 
 ## API
 
-### runFunction(input, [options])
+### runFn(fn, ...args)
 
-#### input
-
-Type: `string`
-
-Lorem ipsum.
-
-#### options
-
-##### foo
-
-Type: `boolean`<br>
-Default: `false`
-
-Lorem ipsum.
+* when `fn` is `undefined` / `null`, do nothing;
+* when `fn` is function, run `fn` with arguments `args`;
+* when `fn` is not `undefined` / `null` / function, throw an error;
