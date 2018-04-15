@@ -1,6 +1,6 @@
 {
   "name": "run-function",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Run a function if it exists.",
   "license": "MIT",
   "repository": "m31271n/run-function",
