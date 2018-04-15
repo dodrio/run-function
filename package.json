@@ -19,7 +19,15 @@
     "code-quality": "npm run lint && npm run test"
   },
   "files": ["src/"],
-  "keywords": [""],
+  "keywords": [
+    "run",
+    "execute",
+    "exec",
+    "func",
+    "fn",
+    "function",
+    "run-function"
+  ],
   "dependencies": {
     "@sindresorhus/is": "^0.8.0"
   },
