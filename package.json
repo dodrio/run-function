@@ -19,6 +19,7 @@
     "code-quality": "npm run lint && npm run test"
   },
   "files": ["src/"],
+  "main": "src/index.js",
   "keywords": [
     "run",
     "execute",
